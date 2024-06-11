@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    padding: 2rem;
+}
+.logo{
+    margin-right: 3rem;
+    flex-shrink: 0;
+}
+.header-items{
+    display: flex;
+    list-style: none;
+    gap: 3.5rem;
+}
