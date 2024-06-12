@@ -1,0 +1,50 @@
+.scrolled-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .scrolled-header.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .header-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-items li {
+    cursor: pointer;
+  }
+  
+  .header-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .header-icons .check-out,
+  .header-icons .search-bar,
+  .header-icons .hamburger {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  

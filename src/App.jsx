@@ -5,11 +5,13 @@ import Home from "./pages/Home/Home"
 import Cart from './pages/Cart/Cart';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import ScrollHeader from "./components/Header/scrolledHeader"
 function App() {
   return (
     <BrowserRouter>
-      <div className="App container">
+      <div className="App ">
         <Header />
+        <ScrollHeader/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />

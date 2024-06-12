@@ -1,4 +1,6 @@
-import ProductCard from "../../components/ProductCard/ProductCard"
+import ProductCard from "../../components/ProductCard/ProductCard";
+import Abc from "./Abc";
+import SliderComponent from "../Slider/SliderComponent";
 
 const Home = () => {
   const products = [
@@ -9,12 +11,14 @@ const Home = () => {
 
   return (
     <div className="home">
+      <SliderComponent/>
       <h1>Products</h1>
       <div className="products">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+      <Abc/>
     </div>
   );
 };
