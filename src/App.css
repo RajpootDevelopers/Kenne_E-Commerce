@@ -1,10 +1,7 @@
 :root{
-  --color-gray: rgb(169, 166, 166);
-  --color-brown : #61481c;
-  --color-light-green : #f2f9ed;
-  --color-warn : #ff5151;
-  --color-light-gray : #d9d9d9;
-  --color-gray : #d0c8bb;
+  --color-gray-line: #ccc;
+  --color-red : #DF2121;
+  --color-dark-gray : #242424;
 }
 
 
