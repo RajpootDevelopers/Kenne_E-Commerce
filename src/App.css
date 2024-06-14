@@ -1,23 +1,40 @@
 :root{
-  --color-gray-line: #ccc;
+  --color-gray-line: #d5d4d4;
   --color-red : #DF2121;
   --color-dark-gray : #242424;
+  --color-white : #fff;
+
+
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
 }
 
 
 *{
   margin: 0;
   line-height: calc(1em + .5rem);
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 html{
   scroll-behavior: smooth;
 }
-body{
-  font-family: "General Sans", sans-serif;
-}
 
-img, 
+/* img, 
 picture,
 video,
 svg,
@@ -25,7 +42,7 @@ canvas{
   display: block;
   max-width: 100%;
   user-select: none;
-}
+} */
 
 button{
   display: inline-block;
